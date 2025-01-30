@@ -8,11 +8,6 @@ from langchain.schema import HumanMessage
 # API key불러오기
 load_dotenv()
 
-
-# 캐시 디렉토리 생성
-if not os.path.exists(".cache"):
-    os.mkdir(".cache")  # . 은 숨김폴더처리
-
 # 현재 페이지 이름 설정
 current_page = "Chatbot_Baseline_NoRAG"
 
