@@ -21,7 +21,7 @@ if st.session_state["current_page"] != current_page:
     st.session_state["current_page"] = current_page
 
 # title
-st.title("챗봇상담 💬")
+st.title("챗봇상담(RAG없는 베이스라인) 💬")
 
 
 if "messages" not in st.session_state:
