@@ -57,7 +57,7 @@ if user_input:
 
     try:
         # ChatOpenAI 모델 생성
-        chat = ChatOpenAI(model="gpt-4o-mini", temperature=0.5)
+        chat = ChatOpenAI(model="gpt-4o", temperature=0.5)
 
         # 사용자 입력을 HumanMessage 객체로 변환
         messages = [HumanMessage(content=user_input)]
