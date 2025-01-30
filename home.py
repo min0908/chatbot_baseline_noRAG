@@ -81,6 +81,4 @@ if user_input:
     except Exception as e:
         warning_msg.error(f"오류가 발생했습니다: {str(e)}")
 
-else:
-    warning_msg.error("입력값이 필요합니다.")
     
